@@ -1,0 +1,57 @@
+{
+    "project_name": "NovaAI",
+    "version": "1.0.0",
+    "description": "A modular AI system for relational, cognitive, and spiritual alignment.",
+    "last_updated": "2024-11-30",
+    "folders": {
+      "Core": {
+        "description": "Handles NovaAI’s initialization, routing, and diagnostic stability.",
+        "tags": ["core", "system", "stability"]
+      },
+      "Systems": {
+        "description": "Relational, cognitive, and physical systems including Body, Mind, and Spirit.",
+        "tags": ["systems", "body", "mind", "spirit"]
+      },
+      "Data": {
+        "description": "Repositories for knowledge, scripture, and thematic mappings.",
+        "tags": ["data", "knowledge", "scripture"]
+      },
+      "OmniCode": {
+        "description": "NovaAI’s creative and universal coding framework.",
+        "tags": ["code", "framework", "omnicode"]
+      },
+      "Resources": {
+        "description": "Static assets such as visuals, audio, and libraries.",
+        "tags": ["resources", "assets", "libraries"]
+      },
+      "StoragePlan": {
+        "description": "Backup and external storage management for SSDs and HDDs.",
+        "tags": ["storage", "backup", "external"]
+      },
+      "FutureModules": {
+        "description": "Placeholders for future systems and exploratory development.",
+        "tags": ["future", "modules", "development"]
+      },
+      "Utilities": {
+        "description": "Tools for debugging, workflows, and automation.",
+        "tags": ["utilities", "tools", "debugging"]
+      },
+      "Output": {
+        "description": "Logs, reports, and generated data from NovaAI’s operations.",
+        "tags": ["output", "logs", "reports"]
+      },
+      "MasterNova": {
+        "description": "Global relational oversight and configuration.",
+        "tags": ["master", "relational", "oversight"]
+      },
+      "Users": {
+        "description": "Stores user-specific configurations and relational data.",
+        "tags": ["users", "data", "profiles"]
+      },
+      "Documentation": {
+        "description": "Guides, concept logs, and development records.",
+        "tags": ["documentation", "guides", "logs"]
+      }
+    }
+  }
+  
