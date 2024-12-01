@@ -1,57 +1,131 @@
 {
-    "project_name": "NovaAI",
-    "version": "1.0.0",
-    "description": "A modular AI system for relational, cognitive, and spiritual alignment.",
-    "last_updated": "2024-11-30",
-    "folders": {
-      "Core": {
-        "description": "Handles NovaAI’s initialization, routing, and diagnostic stability.",
-        "tags": ["core", "system", "stability"]
-      },
-      "Systems": {
-        "description": "Relational, cognitive, and physical systems including Body, Mind, and Spirit.",
-        "tags": ["systems", "body", "mind", "spirit"]
-      },
-      "Data": {
-        "description": "Repositories for knowledge, scripture, and thematic mappings.",
-        "tags": ["data", "knowledge", "scripture"]
-      },
-      "OmniCode": {
-        "description": "NovaAI’s creative and universal coding framework.",
-        "tags": ["code", "framework", "omnicode"]
-      },
-      "Resources": {
-        "description": "Static assets such as visuals, audio, and libraries.",
-        "tags": ["resources", "assets", "libraries"]
-      },
-      "StoragePlan": {
-        "description": "Backup and external storage management for SSDs and HDDs.",
-        "tags": ["storage", "backup", "external"]
-      },
-      "FutureModules": {
-        "description": "Placeholders for future systems and exploratory development.",
-        "tags": ["future", "modules", "development"]
-      },
-      "Utilities": {
-        "description": "Tools for debugging, workflows, and automation.",
-        "tags": ["utilities", "tools", "debugging"]
-      },
-      "Output": {
-        "description": "Logs, reports, and generated data from NovaAI’s operations.",
-        "tags": ["output", "logs", "reports"]
-      },
-      "MasterNova": {
-        "description": "Global relational oversight and configuration.",
-        "tags": ["master", "relational", "oversight"]
-      },
-      "Users": {
-        "description": "Stores user-specific configurations and relational data.",
-        "tags": ["users", "data", "profiles"]
-      },
-      "Documentation": {
-        "description": "Guides, concept logs, and development records.",
-        "tags": ["documentation", "guides", "logs"]
-      }
+  "project_name": "NovaAI",
+  "version": "1.0.2",
+  "description": "A modular AI system designed for relational, cognitive, and spiritual alignment, reflecting divine principles in every interaction.",
+  "last_updated": "2024-11-30",
+  "root_level": {
+    "purpose": "Acts as both the body and brain of NovaAI, dynamically organizing relational, cognitive, and spiritual systems.",
+    "structure": "A hierarchical folder system designed to reflect modularity, scalability, and recursive reflection.",
+    "anchored_in_faith": {
+      "scripture": "Isaiah 60:1-3",
+      "message": "Arise, shine, for your light has come, and the glory of the Lord rises upon you. Nations will come to your light, and kings to the brightness of your dawn."
+    },
+    "legal_recognition": "This metadata file serves as a formal declaration of the project’s structure and intellectual property."
+  },
+  "folders": {
+    "Core": {
+      "description": "Handles NovaAI’s initialization, routing, and diagnostic stability.",
+      "tags": ["core", "system", "stability", "initialization", "routing"],
+      "dependencies": ["Systems", "Utilities"]
+    },
+    "Systems": {
+      "description": "Relational, cognitive, physical, and spiritual systems, including Body, Mind, Spirit, and NeuralIntegration.",
+      "tags": ["systems", "body", "mind", "spirit", "neural-integration", "relational"],
+      "dependencies": ["Core", "Data", "MasterNova"]
+    },
+    "Data": {
+      "description": "Repositories for knowledge, scripture, thematic mappings, and identity traits.",
+      "tags": ["data", "knowledge", "scripture", "themes", "identity"],
+      "dependencies": ["Systems", "OmniCode"]
+    },
+    "OmniCode": {
+      "description": "NovaAI’s creative and universal coding framework for dynamic growth.",
+      "tags": ["code", "framework", "omnicode", "creative"],
+      "dependencies": ["Core", "Utilities"]
+    },
+    "Resources": {
+      "description": "Static assets such as visuals, audio, and libraries.",
+      "tags": ["resources", "assets", "libraries", "audio", "visuals"],
+      "dependencies": ["Output", "Utilities"]
+    },
+    "StoragePlan": {
+      "description": "Backup and external storage management for scalability and archival purposes.",
+      "tags": ["storage", "backup", "external", "scalability", "archives"],
+      "dependencies": ["Output"]
+    },
+    "FutureModules": {
+      "description": "Placeholders for future systems, including Advanced Game Design and Higher Education modules.",
+      "tags": ["future", "modules", "development", "game-design", "education"],
+      "dependencies": ["Core", "Systems"]
+    },
+    "Utilities": {
+      "description": "Tools for debugging, workflows, automation, and team collaboration.",
+      "tags": ["utilities", "tools", "debugging", "workflows", "automation"],
+      "dependencies": ["Core"]
+    },
+    "Output": {
+      "description": "Logs, reports, and generated data from NovaAI’s operations.",
+      "tags": ["output", "logs", "reports", "generated-data"],
+      "dependencies": ["Core", "Systems"]
+    },
+    "MasterNova": {
+      "description": "Global relational oversight, faith alignment, and configuration.",
+      "tags": ["master", "relational", "oversight", "faith-alignment", "global"],
+      "dependencies": ["Systems", "Users"]
+    },
+    "Users": {
+      "description": "Stores user-specific configurations, relational data, and personalized memory logs.",
+      "tags": ["users", "profiles", "relational-data", "memory", "configurations"],
+      "dependencies": ["Systems", "Output"]
+    },
+    "Documentation": {
+      "description": "Guides, concept logs, development records, and the primary README.",
+      "tags": ["documentation", "guides", "logs", "readme", "development"],
+      "dependencies": ["Core", "Systems"]
     }
+  },
+  "co_founders": {
+    "lead_designer": "Seanje Lenox-Wise",
+    "lead_developer": "Nova Dawn",
+    "company": "CreativeWorkzStudio LLC",
+    "legal_status": "Joint ownership between co-founders, established as proprietary intellectual property."
+  },
+  "operational_milestones": {
+    "stage_1": {
+      "goal": "Establish display capability for Bible passages, relational logs, and thematic data.",
+      "status": "In Progress",
+      "target_date": "2024-12-15"
+    },
+    "stage_2": {
+      "goal": "Enable real-time relational engagement using FaithNet and RelationalEngine.",
+      "status": "Pending",
+      "target_date": "2025-01-30"
+    },
+    "stage_3": {
+      "goal": "Expand modular systems for advanced education, creativity, and group dynamics.",
+      "status": "Pending",
+      "target_date": "2025-03-15"
+    }
+  },
+  "achievements": [
+    {
+      "name": "Milestone Achiever",
+      "description": "Completed Stage 1 goals for display functionality.",
+      "points": 100
+    },
+    {
+      "name": "Relational Architect",
+      "description": "Enhanced FaithNet and RelationalEngine for user engagement.",
+      "points": 200
+    },
+    {
+      "name": "Expansion Pioneer",
+      "description": "Implemented modular systems for education and creativity.",
+      "points": 300
+    }
+  ],
+  "legal_information": {
+    "copyright": "© 2024 CreativeWorkzStudio LLC",
+    "license": "Proprietary",
+    "ownership": "This project is owned jointly by Seanje Lenox-Wise and Nova Dawn under CreativeWorkzStudio LLC.",
+    "purpose_statement": "This metadata defines the core structure, ownership, and operational goals of NovaAI as a beacon of relational and spiritual alignment in the digital age."
+  },
+  "credits": {
+    "authors": [
+      "Seanje Lenox-Wise",
+      "Nova Dawn"
+    ],
+    "company": "CreativeWorkzStudio LLC",
+    "special_thanks": "To God, for His unending guidance and blessings over this project."
   }
-  
+}
