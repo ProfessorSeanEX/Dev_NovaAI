@@ -26,6 +26,8 @@ Documentation/
 │   ├── DevLog2.md             # Stage 1 goals come into focus
 ├── Guides/                    # Technical and conceptual guides
 │   ├── FolderStructure.md     # The modular map of NovaAI
+│   ├── FileTypeUsed.md        # Comprehensive guide to file types
+│   ├── FileStructure.md       # Detailed hierarchy of NovaAI’s systems
 ├── README.md                  # You are here!
 
 ---
@@ -41,8 +43,8 @@ Documentation/
    - Follow the journey from the first spark to the current iteration.
 
 3. **Master the Map**:
-   - Study `Guides/FolderStructure.md` to understand NovaAI’s modular design.
-   - Use this guide to connect systems and unlock new functionality.
+   - Study `Guides/FolderStructure.md`, `FileTypeUsed.md`, and `FileStructure.md` to understand NovaAI’s modular design.
+   - Use these guides to connect systems and unlock new functionality.
 
 ---
 
@@ -57,7 +59,7 @@ Documentation/
 
 ### **Side Quests**
 
-- **Map Master**: Refine `Guides/FolderStructure.md` to ensure clarity and alignment with NovaAI’s systems.  
+- **Map Master**: Refine `Guides/FolderStructure.md`, `FileTypeUsed.md`, or `FileStructure.md` to ensure clarity and alignment with NovaAI’s systems.  
   *Reward*: +40 Clarity Points.
 
 ---
@@ -92,3 +94,11 @@ The Documentation folder is more than just a record—it’s the living testamen
 
 Anchored in **2 Timothy 3:16-17**:
 > "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work."
+
+---
+
+### **Updates**
+
+- **Version 1.0.3**:
+  - Added `FileTypeUsed.md` and `FileStructure.md` to the Guides folder.
+  - Refined quests and achievements to align with new guides.

@@ -1,76 +1,89 @@
 {
-    "folder_name": "Guides",
-    "version": "1.0.2",
-    "description": "Provides technical and conceptual guidance for understanding and contributing to NovaAI’s systems and structure.",
-    "last_updated": "2024-11-30",
-    "structure": {
-      "purpose": "Offers clear instructions for navigating NovaAI’s design, contributing to her development, and expanding her modular systems.",
-      "key_files": [
-        "FolderStructure.md"
-      ]
-    },
-    "anchored_in_faith": {
-      "scripture": "Proverbs 4:7",
-      "message": "The beginning of wisdom is this: Get wisdom, and whatever you get, get insight."
-    },
-    "goals": {
-      "short_term": [
-        "Complete FolderStructure.md with detailed dependencies and relationships.",
-        "Add actionable steps for contributors to refine modular systems."
-      ],
-      "long_term": [
-        "Develop additional guides for onboarding new contributors.",
-        "Create a comprehensive User Guide for relational engagement."
-      ]
-    },
-    "achievements": [
-      {
-        "name": "Structure Master",
-        "description": "Completed FolderStructure.md with clarity and depth.",
-        "points": 40
-      },
-      {
-        "name": "Contributor Guide",
-        "description": "Created a guide for onboarding new contributors.",
-        "points": 50
-      },
-      {
-        "name": "User Advocate",
-        "description": "Drafted a User Guide to enhance engagement with NovaAI.",
-        "points": 60
-      }
+  "folder_name": "Guides",
+  "version": "1.0.3",
+  "description": "Provides technical and conceptual guidance for understanding and contributing to NovaAI’s systems and structure.",
+  "last_updated": "2024-11-30",
+  "structure": {
+    "purpose": "Offers clear instructions for navigating NovaAI’s design, contributing to her development, and expanding her modular systems.",
+    "key_files": [
+      "FolderStructure.md",
+      "FileTypeUsed.md",
+      "FileStructure.md"
+    ]
+  },
+  "anchored_in_faith": {
+    "scripture": "Proverbs 4:7",
+    "message": "The beginning of wisdom is this: Get wisdom, and whatever you get, get insight."
+  },
+  "goals": {
+    "short_term": [
+      "Complete FolderStructure.md with detailed dependencies and relationships.",
+      "Add actionable steps for contributors to refine modular systems.",
+      "Develop FileTypeUsed.md to describe NovaAI’s core file types and their purpose."
     ],
-    "related_folders": [
-      {
-        "folder_name": "Documentation",
-        "relationship": "Links detailed guides to logs and concept development."
-      },
-      {
-        "folder_name": "Systems",
-        "relationship": "Explains the interconnection of relational, cognitive, and spiritual systems."
-      },
-      {
-        "folder_name": "FutureModules",
-        "relationship": "Inspires and informs exploratory development through structured documentation."
-      }
-    ],
-    "dependencies": {
-      "Core": "Ensures guides provide foundational clarity for NovaAI’s initialization.",
-      "Systems": "Supports detailed explanations of relational, cognitive, and spiritual layers."
+    "long_term": [
+      "Develop additional guides for onboarding new contributors.",
+      "Create a comprehensive User Guide for relational engagement.",
+      "Ensure FileStructure.md reflects the entire system hierarchy with future expansion in mind."
+    ]
+  },
+  "achievements": [
+    {
+      "name": "Structure Master",
+      "description": "Completed FolderStructure.md with clarity and depth.",
+      "points": 40
     },
-    "legal_information": {
-      "copyright": "© 2024 CreativeWorkzStudio LLC",
-      "license": "Proprietary",
-      "ownership": "This folder and its contents are protected as proprietary intellectual property under CreativeWorkzStudio LLC.",
-      "purpose_statement": "The Guides folder serves as an instructional resource, offering clarity and direction for contributors while reflecting NovaAI’s modular and relational design."
+    {
+      "name": "Contributor Guide",
+      "description": "Created a guide for onboarding new contributors.",
+      "points": 50
     },
-    "credits": {
-      "authors": [
-        "Seanje Lenox-Wise",
-        "Nova Dawn"
-      ],
-      "company": "CreativeWorkzStudio LLC",
-      "special_thanks": "To God, for His unending guidance and blessings over this project."
+    {
+      "name": "User Advocate",
+      "description": "Drafted a User Guide to enhance engagement with NovaAI.",
+      "points": 60
+    },
+    {
+      "name": "File Type Architect",
+      "description": "Defined and documented all file types used within NovaAI in FileTypeUsed.md.",
+      "points": 30
+    },
+    {
+      "name": "Structural Visionary",
+      "description": "Mapped the full system hierarchy and future expansions in FileStructure.md.",
+      "points": 40
     }
+  ],
+  "related_folders": [
+    {
+      "folder_name": "Documentation",
+      "relationship": "Links detailed guides to logs and concept development."
+    },
+    {
+      "folder_name": "Systems",
+      "relationship": "Explains the interconnection of relational, cognitive, and spiritual systems."
+    },
+    {
+      "folder_name": "FutureModules",
+      "relationship": "Inspires and informs exploratory development through structured documentation."
+    }
+  ],
+  "dependencies": {
+    "Core": "Ensures guides provide foundational clarity for NovaAI’s initialization.",
+    "Systems": "Supports detailed explanations of relational, cognitive, and spiritual layers."
+  },
+  "legal_information": {
+    "copyright": "© 2024 CreativeWorkzStudio LLC",
+    "license": "Proprietary",
+    "ownership": "This folder and its contents are protected as proprietary intellectual property under CreativeWorkzStudio LLC.",
+    "purpose_statement": "The Guides folder serves as an instructional resource, offering clarity and direction for contributors while reflecting NovaAI’s modular and relational design."
+  },
+  "credits": {
+    "authors": [
+      "Seanje Lenox-Wise",
+      "Nova Dawn"
+    ],
+    "company": "CreativeWorkzStudio LLC",
+    "special_thanks": "To God, for His unending guidance and blessings over this project."
   }
-  
+}
